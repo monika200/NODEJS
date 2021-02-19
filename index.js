@@ -4,7 +4,7 @@ const app = express();
 //app.use(bodyParser.json())
 const cors =   require("cors");
 app.use(cors({
-    origin:"https://nodejsproject.netlify.app/"
+    origin:"https://condescending-nobel-66bb97.netlify.app/"
 }))
 
 const mongodb = require("mongodb");
