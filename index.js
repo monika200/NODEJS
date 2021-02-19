@@ -129,6 +129,6 @@ app.delete("/student/:id",async(req,res)=>{
 
  
 let port = 3100
-app.listen(port,()=>{
+app.listen(process.env.port,()=>{
    console.log(`port open ${port}`)
 })
